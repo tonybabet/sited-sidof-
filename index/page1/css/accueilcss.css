@@ -1,0 +1,264 @@
+
+*{
+    margin: 0;
+}
+
+
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+#nav1{
+    margin-left: 240px;
+}
+#nav2{
+    margin-right: 240px;
+    padding: 0;
+}
+nav ul{
+    padding: 0;
+}
+
+
+header nav{
+    margin-top: 30px;
+}
+
+#imgheader{
+    width: 152px;
+}
+
+header ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgsec1{
+
+    top: 0;
+    width: 100%;
+
+}
+
+#logoterre{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    right: 80px;
+    top: 25px;
+}
+
+#sec1 h1{
+    position: absolute;
+    color: white;
+    width: 467px;
+    height: 94px;
+    top: 50%;     
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+
+/*___________________sec2___________________*/
+
+#sec2{
+    background-color: aqua;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titretexte{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+
+.img .img1,.img2{
+
+    width: 324px;
+height: 500px;
+background-color: black;
+
+}
+
+
+/*_________sec3_____________*/
+
+.div1sec3 .div1{
+    width: 720px;
+height: 650px;
+background-color: #4d4444;
+float: left
+
+}
+
+.div1sec3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(204, 224, 224);
+}
+
+.titretextesec3{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 500px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*__________sec4_________________*/
+
+#sec4{
+    background-color:grey;
+    height: 1000px;
+}
+
+.titretextesec4{
+    margin: auto;
+    text-align: center;
+    width: 950px;
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.imgsec4{
+    width: 1224px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.imgsec4 .img{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 600px;
+}
+
+.imgsec4 .img p{
+    margin-top: auto;
+    margin-right: auto;
+}
+
+/*_________sec5__________________*/
+
+
+#sec5{
+    width: 100%;
+height: 650px;
+background-color: rgb(212, 212, 212);
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.titretexte{
+margin: auto;
+}
+
+
+.divglobal{
+    width: 950px;
+    margin: auto;
+    height: 500px;
+}
+
+.imgsec5{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    margin: auto;
+}
+
+.divglobal div{
+    margin-top: 50px;
+}
+
+/*_______sec6________*/
+
+
+#sec6{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(153, 135, 135);
+    display: flex;
+    align-items: center;
+}
+
+#sec6 .div1sec6{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    
+}
+
+.div2sec6{
+    margin: auto;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*_______footer_________*/
+
+footer{
+    width: 100%;
+height: 385px;
+background-color: rgb(206, 195, 195);
+}
+
+.divfooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logofooter{
+    width: 184px;
+height: 106px;
+background-color: black;
+}
+
+.div1footer p{
+    width: 367px;
+    height: 88px;
+}
+
+
+
+
+
+
+
+
+
+
