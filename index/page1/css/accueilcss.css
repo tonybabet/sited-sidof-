@@ -38,8 +38,8 @@ header ul {
 }
 
 #imgsec1{
-
-    top: 0;
+    position: absolute;
+    top: 0px;
     width: 100%;
 
 }
@@ -54,30 +54,61 @@ header ul {
 
 #sec1 h1{
     position: absolute;
+    text-align: center;
     color: white;
     width: 467px;
     height: 94px;
-    top: 50%;     
+    top: 72%;     
     left: 50%;    
     transform: translate(-50%, -50%);
+}
+
+#sec1 button{
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    width: 275px;
+    height: 55px;
+    top: 900px;     
+    left: 50%;    
+    transform: translate(-50%, -50%);
+    padding: 16px 80px 16px 80px;
+    border-radius: 8px;
+    border: 2px solid white;
+
+}
+.vide{
+    height: 20px;
 }
 
 /*___________________sec2___________________*/
 
 #sec2{
-    background-color: aqua;
+    margin-top: 930px;
     height: 700px;
     display: flex;
     align-items: center;
 }
-.div1{
+
+#sec2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("/image_logo_iconeglobal/bacground.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Ajuster l'opacité ici */
+    z-index: -1;}
+
+#sec2 .div1{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
 }
 
 .titretexte{
     width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -85,17 +116,26 @@ header ul {
 }
 .img{
     display: flex;
-    justify-content: space-between;
-    width: 700px;
+    justify-content: space-evenly;
+    width: 900px;
 }
 
 
 .img .img1,.img2{
 
     width: 324px;
-height: 500px;
-background-color: black;
+    height: 500px;
+    background-color: black;
 
+}
+
+.img1{
+    background-image: url(/index/page1/image/image_2.jpg);
+    background-size: cover;
+}
+.img2{
+    background-image: url(/index/page1/image/image_3.jpg);
+    background-size: cover;
 }
 
 
@@ -233,19 +273,23 @@ margin: auto;
 
 footer{
     width: 100%;
-height: 385px;
-background-color: rgb(206, 195, 195);
+    height: 385px;
+    background-color: rgb(206, 195, 195);
 }
+
+
 
 .divfooter{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .logofooter{
     width: 184px;
-height: 106px;
-background-color: black;
+    height: 106px;
+    background-color: black;
+    margin-bottom: 20px;
 }
 
 .div1footer p{
@@ -253,7 +297,45 @@ background-color: black;
     height: 88px;
 }
 
+footer .menu1 ul{
+    padding: 0;
+    list-style: none;
+    
+}
 
+.menu1 ul li{
+    margin-top: 10px;
+}
+
+.div2footer{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 165px;
+}
+.div2footer p{
+    margin-right: 50px;
+    border-right: 3px solid black;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+footer .contactfooter img{
+    
+    width: 34px;
+    height: 34px;
+    margin-left: 20px;
+}
+
+hr{
+    margin: auto;
+    width: 85%;
+}
+
+footer .contactfooter{
+    margin-left: auto;
+    margin-right: 165px;
+}
 
 
 
