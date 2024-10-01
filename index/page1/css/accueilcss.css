@@ -94,11 +94,11 @@ header ul {
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 700px;
     background-image: url("/image_logo_iconeglobal/bacground.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 0.3; /* Ajuster l'opacité ici */
+    opacity: 0.2; /* Ajuster l'opacité ici */
     z-index: -1;}
 
 #sec2 .div1{
@@ -143,9 +143,10 @@ header ul {
 
 .div1sec3 .div1{
     width: 720px;
-height: 650px;
-background-color: #4d4444;
-float: left
+    height: 885px;
+    float: left;
+    background-image: url(/index/page1/image/image_5.jpg);
+    background-size: cover;
 
 }
 
@@ -153,9 +154,20 @@ float: left
     display: flex;
     align-items: center;
     width: 100%;
-    height: 650px;
-    background-color: rgb(204, 224, 224);
+    height: 885px;
 }
+.div1sec3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 885px;
+    background-image: url("/image_logo_iconeglobal/bacground.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; /* Ajuster l'opacité ici */
+    z-index: -1;
+}
+
 
 .titretextesec3{
     text-align: center;
@@ -171,8 +183,19 @@ float: left
 /*__________sec4_________________*/
 
 #sec4{
-    background-color:grey;
+
     height: 1000px;
+}
+#sec4::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background-image: url("/image_logo_iconeglobal/bacground.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; /* Ajuster l'opacité ici */
+    z-index: -1;
 }
 
 .titretextesec4{
@@ -193,16 +216,30 @@ float: left
     display: flex;
     justify-content: space-between;
 }
-.imgsec4 .img{
+
+#sec4 #img1,#img2,#img3{
     background-color: black;
     color: white;
     width: 400px;
     height: 600px;
 }
 
-.imgsec4 .img p{
-    margin-top: auto;
-    margin-right: auto;
+.imgsec4 #img1{
+    background-image: url("/index/page1/image/image_6.png");
+    background-size: cover;
+}
+.imgsec4 #img2{
+    background-image: url("/index/page1/image/image_7.png");
+    background-size: cover;
+}
+.imgsec4 #img3{
+    background-image: url("/index/page1/image/image_8.png");
+    background-size: cover;
+}
+
+.imgsec4 p{
+    margin-top: 580px;
+    margin-left: 10px;
 }
 
 /*_________sec5__________________*/
@@ -210,13 +247,25 @@ float: left
 
 #sec5{
     width: 100%;
-height: 650px;
-background-color: rgb(212, 212, 212);
-display: flex;
-flex-direction: column;
-justify-content: center;
+    height: 990px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
+#sec5::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 990px;
+    background-image: url("/image_logo_iconeglobal/bacground.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; /* Ajuster l'opacité ici */
+    z-index: -1;
+
+}
+
 .titretexte{
 margin: auto;
 }
@@ -245,7 +294,8 @@ margin: auto;
 #sec6{
     width: 100%;
     height: 650px;
-    background-color: rgb(153, 135, 135);
+    background-color: black;
+    color: white;
     display: flex;
     align-items: center;
 }
@@ -255,6 +305,8 @@ margin: auto;
     height: 100%;
     background-color: black;
     float: left;
+    background-image: url("/index/page1/image/map.png");
+    background-size: cover;
     
 }
 
@@ -274,7 +326,18 @@ margin: auto;
 footer{
     width: 100%;
     height: 385px;
-    background-color: rgb(206, 195, 195);
+    color: white;
+}
+footer::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 386px;
+    background-image: url("/image_logo_iconeglobal/martin-adams-D9MDpAjlJ6k-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(20%); /* Ajuster l'opacité ici */
+    z-index: -1;
 }
 
 
@@ -285,11 +348,8 @@ footer{
     padding: 20px;
 }
 
-.logofooter{
-    width: 184px;
-    height: 106px;
-    background-color: black;
-    margin-bottom: 20px;
+.logofooter img{
+    width: 100px;
 }
 
 .div1footer p{
