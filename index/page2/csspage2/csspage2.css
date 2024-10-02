@@ -91,6 +91,7 @@ body{
 
 .texte {
     text-align: center;
+    padding: 130px;
 }
 
 #sec2 p{
@@ -103,3 +104,120 @@ body{
     line-height: 47.12px;
     text-align: center;
 }
+
+/*________sec3_______*/
+
+.global{
+    display: flex;
+}
+
+#sec3 .titretexte{
+    width: 439px;
+    height: 420px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+padding-top: 140px;
+}
+#sec3 .titretexte p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    width: 425px;
+    height: 96px;
+}
+
+#sec3 .titretexte h1{
+    margin: 0;
+}
+
+#sec3 .div1{
+    width: 50%;
+    height: 650px;
+}
+#sec3 .div1::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height:650px;
+    background-image: url(/image_logo_iconeglobal/bacground.jpg);
+    opacity: 0.2;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.div2{
+    width: 50%;
+    background-color: grey;
+}
+
+/*____sec4__________*/
+
+#sec4 .divimgsec4{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#sec4 .div1{
+    width: 292px;
+    height: 482px;
+    background-color: aqua;
+    background-image: url(/index/page2/imagepage2/image_8.png);
+    background-size: cover;
+}
+#sec4 .div2{
+    width: 392px;
+    height: 482px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/index/page2/imagepage2/davide-cantelli-jpkfc5_d-DI-unsplash\ 1.png);
+    background-size: cover;
+}
+#sec4 .div3{
+    width: 392px;
+    height: 482px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/index/page2/imagepage2/image_6.png);
+    background-size: cover;
+}
+#sec4 .div4{
+    width: 292px;
+    height: 482px;
+    background-color: aqua;
+    background-image: url(/index/page2/imagepage2/adam-jaime-YeH5EIRFCIs-unsplash\ 2.png);
+    background-size: cover;
+}
+
+
+#sec4 h1{
+    font-family: Italiana;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75.39px;
+    letter-spacing: 0.6000000238418579px;
+    text-align: left;
+    color: white;
+}
+
+.divimgsec4{
+    filter: brightness(50%);
+}
+
+.divimgsec4 .div2 h1,.div3 h1{
+    filter: brightness(100%);
+}
+
+
+
