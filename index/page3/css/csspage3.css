@@ -115,7 +115,6 @@
 
 #sec3 {
     width: 100%;
-    height: 100px;
 }
 #sec3::before {
     content: "";
@@ -126,7 +125,6 @@
     opacity: 0.2;
     background-size: cover;
     background-position: center;
-    z-index: -1;
 }
 
 .texte {
@@ -144,3 +142,55 @@
     line-height: 47.12px;
     text-align: center;
 }
+
+/*____sec4____*/
+
+#sec4 {
+    width: 100%;
+}
+#sec4::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 560px;
+    background-image: url(/image_logo_iconeglobal/bacground.jpg);
+    opacity: 0.2;
+    background-size: cover;
+    background-position: center;
+}
+
+#sec4 .imgdiv1{
+    width: 582px;
+    height: 368px;
+    background-color: black;
+    margin: auto;
+}
+#sec4 .div1{
+    width: 50%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+}
+#sec4 .div2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#sec4 .titretexte{
+    width: 439px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 368px;
+}
+
+#sec4 .global4{
+    display: flex;
+
+}
+
+
+
