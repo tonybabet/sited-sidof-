@@ -1,0 +1,48 @@
+/*___sec1___*/
+*{margin: 0;}
+#sec1{
+    text-align: center;
+    background: #444444;
+    height: 2488px;
+    color: white;
+}
+#sec1 h1{
+    font-family: Italiana;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75.39px;
+
+
+}
+#sec1 p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    width: 933px;
+    height: 50px;
+    margin: auto;
+}
+
+#sec1 .global div{
+    width: 398px;
+    height: 500px;
+    background-color: #D9D9D9;
+    margin-top: 50px;
+}
+
+
+#sec1 .global{
+    display: grid;
+    grid-template-columns: 440px 440px 440px;
+    justify-content: center;
+
+}
+
+#sec1 .div5{
+    
+    background-image: url(/image_logo_iconeglobal/DeSiDofe_Blanc.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

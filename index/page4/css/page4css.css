@@ -81,3 +81,51 @@
     margin-top: 80px;
 }
 
+/*___sec4___*/
+#sec3{
+    display: flex;
+}
+#sec3 .imgsec3{
+    width: 50%;
+    height: 690px;
+    background-image: url(/index/page4/img/i91354-ananas-caramelise-au-lait-de-coco.jpg);
+    background-size: cover;
+}
+
+/*___se5___*/
+
+#sec5{
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#sec5 .global{
+    width: 975px;
+    height: 144px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#sec5 p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: center;
+}
+
+#sec5 button{
+    width: 275px;
+    height: 55px;
+    top: 483px;
+    left: 582px;
+    padding: 16px 80px 16px 80px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #D37533;
+    margin-top: 50px;
+}
