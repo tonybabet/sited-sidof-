@@ -191,6 +191,60 @@
     display: flex;
 
 }
+/*____sec5___*/
+
+#sec5{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 1000px;
+}
+
+#sec5 .img1{
+    width: 1202px;
+    height: 339px;
+background-color: aqua;
+background-image: url(/index/page3/image/kristof-korody-GPta6bE6Nvw-unsplash.jpg);
+background-position: 10% 50%;
+background-size: 100%;
+}
+#sec5 .globalimg{
+    width: 1202px;
+    margin: auto;
+    margin-top: 50px;
+}
+#sec5 .globalimg2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#sec5 .img2{
+    width: 834px;
+    height: 283px;
+    background-color: rgb(145, 179, 179);
+    background-image: url(/index/page3/image/kristof-korody-dqbqj3mdFfA-unsplash.jpg);
+    background-position: 10% 50%;
+    background-size: 100%;
+}
+#sec5 .img3{
+    width: 324px;
+    height: 283px;
+    background-color: rgb(45, 65, 65);
+    background-image: url(/index/page3/image/kristof-korody-QSK7erlujJw-unsplash.jpg);
+    background-position: 10% 50%;
+    background-size: 100%;
+}
+#sec5 button{
+    width: 275px;
+    height: 55px;
+    padding: 16px 80px 16px 80px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #D37533;
+    margin-top: 50px;
+}
+
+
 
 
 
