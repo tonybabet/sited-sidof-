@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1125px;
+    background-image: url(/image_logo_iconeglobal/bacground.jpg);
+    opacity: 0.3;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/*___titretexte___*/
+
+
+.titretexte p{
+    width: 933px;
+    height: 120px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: center;
+    margin: auto;
+}
+.titretexte h1{
+    width: 238px;
+    font-family: Italiana;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75.39px;
+    color: #381505;   
+    margin: auto;
+}
+.titretexte .vide{
+    width: 100px;
+    height: 2px;
+    background-color: #381505;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*__sectioncontact___*/
+
+.contact .div1{
+    width: 491px;
+    height: 647px;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0px 10px;
+    margin-left: 10px;
+}
+
+.contact #fb,#insta{
+    margin-top: 100px;
+    width: 40px;
+}
+
+.contact h1{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;  
+}
+
+.contact p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;  
+}
+
+.contact .div1 {
+    padding-left:  50px;
+}
+
+.titretexte2{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.infocontact .tel,.email,.localisation{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.infocontact .tel img,.email img,.localisation img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+/*___div2___*/
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+ .background{
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    height: 667px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.div2{
+    width: 65%;
+    padding: 50px;
+    margin-bottom: auto;
+    
+}
+.div2 .input1{
+    display: grid;
+    grid-template-columns: 400px 400px ;
+    height: 150px;
+}
+
+.div2 .input1 input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 370px;
+}
+
+#message{
+    width: 770px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.quelsujet{
+    margin-top: 50px;
+}
+
+.quelsujet p{
+    margin-bottom: 30px;
+}
+
+.checkbox{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.div2 button{
+    margin-left: 615px;
+    margin-top: 50px;
+    width: 160px;
+    height: 54px;
+    padding: 15px 48px 15px 48px;
+    border-radius: 5px;
+    background: #D37533;
+
+}
+
+
+
+
+

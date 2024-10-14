@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*_____sec1___*/
+
+#section1 {
+    background-image: url(/index/page6/img/Rectangle15.png);
+    background-size: cover;
+    width: 100%;
+    height: 702px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 .sec1{
+    display: flex;
+    align-items:center ;
+}
+
+#section1 .sec1 .vide1{
+    width: 280px;
+    height: 3px;
+    background-color: white;  
+    margin-right: 80px;  
+}
+#section1 .sec1 .vide2{
+    width: 280px;
+    height: 3px;
+    background-color: white;  
+    margin-left: 80px;  
+}
+
+#section1 .sec1 h1{
+    margin-top: -20px;
+    padding: 0;
+    font-family: Italiana;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+/*___sec2___*/
+#sec2 p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+}
+#sec2 .sec2{
+    width: 1145px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+#sec2{
+    
+    height: 614px;
+    background-color:black ;
+    color: white; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+#sec2 .input{
+    width: 100%;
+    height: 88px;
+    margin: auto; 
+
+}
+
+#sec2 .sec2 input{
+    width: 48%;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+
+}
+
+#sec2 .sec2 select{
+    width: 30%;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+}
+
+#sec2 .inputselect{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#sec2 .inputtexte{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec2 button{
+    width: 275px;
+    height: 55px;
+    padding: 16px 80px 16px 80px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #092C4C;
+    border: none;
+    margin: auto;
+}
