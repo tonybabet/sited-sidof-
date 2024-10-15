@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/index/page2/csspage2/csspage2.css">
 </head>
 <body>
+    <?php include '../../header/header.php'; ?>
     <main>
         <section id="sec1">
             <div class="global">

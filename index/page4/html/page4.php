@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/index/page4/css/page4css.css">
 </head>
 <body>
+    <?php include '../../header/header.php'; ?>
     <section id="sec1">
         <h1>
             La Carte

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+
+header{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#nav1{
+    margin-left: 240px;
+}
+#nav2{
+    margin-right: 240px;
+    padding: 0;
+}
+nav ul{
+    padding: 0;
+}
+
+
+
+header nav{
+    margin-top: 30px;
+}
+
+#imgheader{
+    width: 152px;
+}
+
+header ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgsec1{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+
+}
+
+#logoterre{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    right: 80px;
+    top: 25px;
+}
+
+#sec1 h1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 467px;
+    height: 94px;
+    top: 72%;     
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+
+#sec1 button{
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    width: 275px;
+    height: 55px;
+    top: 900px;     
+    left: 50%;    
+    transform: translate(-50%, -50%);
+    padding: 16px 80px 16px 80px;
+    border-radius: 8px;
+    border: 2px solid white;
+
+}
+.vide{
+    height: 20px;
+}

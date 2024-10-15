@@ -6,8 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="/index/page3/css/csspage3.css">
 </head>
+<?php include '../../header/header.php'; ?>
 <body>
+
     <section id="sec1">
+
         <div class="titretexte">
             <h1>
                 La cheffe
